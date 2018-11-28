@@ -1,7 +1,7 @@
-Readme
-
 MLCV Hand Recognition project
 Timon Schneider
+
+In this project I used OpenCV2 scripts to predict hand letters from live video. Using facedetect.cpp the program detects your face and saves a color palet of your skin color. Camshift.cpp then keeps following the face and covers the video so that another instance of camshift finds your hand because of the similarity in colors. That rectangle will be the input for the the trained MLP network that predicts the hand letter.
 
 Results:
 *	I trained the model to recognize a, b, c and d. 
